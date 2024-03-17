@@ -1,0 +1,76 @@
+.row div img{
+    height: 300px;
+    width: 300px !important;
+    cursor: pointer;
+}
+body{background: #d9a7c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+h1{
+    font-weight: 900;
+    font-size: 70px;
+}
+h2{
+    font-weight: 900;
+    font-size:50px;
+}
+h3{
+    font-weight: 900;
+    font-size:30px;
+}
+a{
+    text-decoration: none;
+}
+select {
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px;
+    width: 500px;
+}
+select option{
+    font-size:20px;
+}
+
+ul{
+   list-style: none;
+   font-size:20px;
+   
+}
+ul li{
+    margin-block: 20px;
+    font-weight: 500;
+    color: #c91212;
+}
+
+#overlay{
+    background-color: rgba(193, 189, 178, 0.495);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    display: none;
+    background-position: center center;
+    background-size:auto;
+}
+#recipeIng{
+    width: 50%;
+    max-height: 500px;
+    border-radius:10px ;
+    overflow: auto;
+    background-image: url(../imgs/food-recipe.jpg);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+#xmark {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    cursor: pointer;
+}
